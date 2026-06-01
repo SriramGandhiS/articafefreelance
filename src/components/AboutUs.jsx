@@ -2,32 +2,10 @@ import { MapPin } from 'lucide-react'
 
 export default function AboutUs() {
   return (
-    <section style={{ position: 'relative', width: '100vw', backgroundColor: 'var(--accent)', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingBottom: 'var(--size-6xl)', overflow: 'hidden' }}>
-      {/* Decorative coffee beans & art icons on the yellow sides (Desktop only) */}
-      <svg className="about-decorator" style={{ position: 'absolute', top: '8%', left: '1.8%', width: '38px', height: '26px', zIndex: 0, filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.15))', pointerEvents: 'none', transform: 'rotate(15deg)' }} viewBox="0 0 30 20">
-        <ellipse cx="15" cy="10" rx="15" ry="10" fill="#4e2c0e" />
-        <path d="M 0,10 Q 15,18 30,10" stroke="#2e1505" strokeWidth="2" fill="none" />
-      </svg>
-      <img className="about-decorator" src="/paint_splash.png" alt="" style={{ position: 'absolute', top: '32%', left: '1.2%', width: '85px', height: 'auto', zIndex: 0, opacity: 0.9, filter: 'drop-shadow(0 6px 8px rgba(0,0,0,0.12))', pointerEvents: 'none', transform: 'rotate(-10deg)' }} />
-      <svg className="about-decorator" style={{ position: 'absolute', top: '60%', left: '2%', width: '32px', height: '22px', zIndex: 0, filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.15))', pointerEvents: 'none', transform: 'rotate(-35deg)' }} viewBox="0 0 30 20">
-        <ellipse cx="15" cy="10" rx="15" ry="10" fill="#4e2c0e" />
-        <path d="M 0,10 Q 15,18 30,10" stroke="#2e1505" strokeWidth="2" fill="none" />
-      </svg>
-      <img className="about-decorator" src="/brush_stroke.png" alt="" style={{ position: 'absolute', top: '82%', left: '1.4%', width: '75px', height: 'auto', zIndex: 0, opacity: 0.95, filter: 'drop-shadow(0 5px 7px rgba(0,0,0,0.1))', pointerEvents: 'none', transform: 'rotate(12deg)' }} />
-
-      <svg className="about-decorator" style={{ position: 'absolute', top: '12%', right: '1.8%', width: '35px', height: '24px', zIndex: 0, filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.15))', pointerEvents: 'none', transform: 'rotate(-20deg)' }} viewBox="0 0 30 20">
-        <ellipse cx="15" cy="10" rx="15" ry="10" fill="#4e2c0e" />
-        <path d="M 0,10 Q 15,18 30,10" stroke="#2e1505" strokeWidth="2" fill="none" />
-      </svg>
-      <img className="about-decorator" src="/art_palette.png" alt="" style={{ position: 'absolute', top: '35%', right: '1.2%', width: '80px', height: 'auto', zIndex: 0, opacity: 0.95, filter: 'drop-shadow(0 6px 8px rgba(0,0,0,0.15))', pointerEvents: 'none', transform: 'rotate(15deg)' }} />
-      <svg className="about-decorator" style={{ position: 'absolute', top: '58%', right: '2%', width: '40px', height: '28px', zIndex: 0, filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.15))', pointerEvents: 'none', transform: 'rotate(40deg)' }} viewBox="0 0 30 20">
-        <ellipse cx="15" cy="10" rx="15" ry="10" fill="#4e2c0e" />
-        <path d="M 0,10 Q 15,18 30,10" stroke="#2e1505" strokeWidth="2" fill="none" />
-      </svg>
-      <img className="about-decorator" src="/pottery.png" alt="" style={{ position: 'absolute', top: '78%', right: '1.4%', width: '80px', height: 'auto', zIndex: 0, opacity: 0.9, filter: 'drop-shadow(0 6px 8px rgba(0,0,0,0.12))', pointerEvents: 'none', transform: 'rotate(-10deg)' }} />
+    <section style={{ position: 'relative', width: '100vw', backgroundColor: 'var(--accent)', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingBottom: 'var(--size-6xl)' }}>
 
       {/* White rounded blob container */}
-      <div className="blob-white" style={{ position: 'relative', width: '92%', maxWidth: '1400px', backgroundColor: 'var(--paper)', borderRadius: '100px', padding: 'var(--size-6xl)', display: 'flex', flexDirection: 'column', gap: 'var(--size-6xl)', marginTop: '-50px', zIndex: 1 }}>
+      <div className="blob-white" style={{ position: 'relative', width: '95%', maxWidth: '1400px', backgroundColor: 'var(--paper)', borderRadius: '100px', padding: 'var(--size-6xl)', display: 'flex', flexDirection: 'column', gap: 'var(--size-6xl)', marginTop: '-50px', zIndex: 1 }}>
 
         {/* Location Banner */}
         <div className="location-banner" style={{ width: '100%', maxWidth: '1000px', margin: '0 auto', backgroundColor: 'var(--accent)', borderRadius: '40px', padding: '30px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', border: '3px solid var(--ink)', boxShadow: '6px 6px 0px var(--ink)', flexWrap: 'wrap', gap: '20px' }}>
@@ -89,14 +67,6 @@ export default function AboutUs() {
       </div>
 
       <style dangerouslySetInnerHTML={{__html: `
-        .about-decorator {
-          display: block;
-        }
-        @media (max-width: 1200px) {
-          .about-decorator {
-            display: none !important;
-          }
-        }
         .blob-white {
           padding: 5rem var(--size-6xl) !important;
         }
