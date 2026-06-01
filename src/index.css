@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Outfit:wght@300;400;700;900&display=swap');
+
+:root {
+  --ink: #111111;
+  --paper: #ffffff;
+  --accent: #FFD200;
+  --accent-dim: #FF8A00;
+  --blue-bg: #82D1E4;
+  --soft-yellow: #FFF8D6;
+
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.25rem;
+  --size-xl: 1.5rem;
+  --size-2xl: 2rem;
+  --size-3xl: 3rem;
+  --size-4xl: 4.5rem;
+  --size-5xl: 7rem;
+  --size-6xl: 10rem;
+
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Fredoka', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--paper);
+  color: var(--ink);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: 0.9;
+}
+
+.blob-yellow {
+  background-color: var(--accent);
+  border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+.blob-white {
+  background-color: var(--paper);
+  border-radius: 50% 50% 30% 70% / 50% 40% 60% 50%;
+}
+
+.canvas-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+}
+
+.content-layer {
+  pointer-events: none;
+}
+.content-layer * {
+  pointer-events: auto;
+}
+
+.btn-primary {
+  background: var(--accent-dim);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(255, 138, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.3s;
+  font-family: var(--font-display);
+}
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+/* ── MOBILE: Hide desktop scroll cup ── */
+@media (max-width: 768px) {
+  .desktop-cup-wrapper {
+    display: none !important;
+  }
+}
