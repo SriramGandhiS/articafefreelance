@@ -131,7 +131,7 @@ export default function Hero() {
         <h1 style={{ fontSize: '6.5vw', color: '#ffffff', fontWeight: 900, fontFamily: 'var(--font-display)', letterSpacing: '-2px', textAlign: 'center', lineHeight: 0.9, textShadow: '0 8px 16px rgba(0,0,0,0.08)' }}>PICK YOUR</h1>
         <h1 style={{ fontSize: '8.5vw', color: '#ffffff', fontWeight: 900, fontFamily: 'var(--font-display)', letterSpacing: '-2px', textAlign: 'center', lineHeight: 0.9, marginTop: '5px', textShadow: '0 8px 16px rgba(0,0,0,0.08)' }}>FAVORITE BREW</h1>
         <p style={{ textAlign: 'center', maxWidth: '650px', fontSize: '1.25rem', marginTop: '30px', lineHeight: 1.6, color: 'var(--ink)', fontWeight: 600, padding: '0 20px' }}>
-          Beat the summer heat at Madurai's premier art café! Fuel your creativity with our refreshing summer drinks, crafted with hydration, cooling & antioxidant benefits to keep your inspiration flowing.
+          Welcome to Madurai's premier art café! Ignite your creativity with our signature artisanal coffee and specialty brews, crafted to fuel your inspiration while you paint, sculpt, and create.
         </p>
         <button className="btn-primary" style={{ marginTop: '35px', backgroundColor: 'var(--accent-dim)', color: 'white', fontSize: '1.1rem', fontWeight: 800, padding: '16px 40px', borderRadius: '50px', border: '2px solid var(--ink)', boxShadow: '4px 4px 0 var(--ink)', cursor: 'pointer' }}>
           EXPLORE SPECIALTIES
@@ -207,7 +207,6 @@ export default function Hero() {
           }}
         />
 
-        {/* Subtext */}
         <p style={{
           fontSize: '0.95rem',
           lineHeight: 1.65,
@@ -216,7 +215,7 @@ export default function Hero() {
           maxWidth: '320px',
           marginBottom: '28px',
         }}>
-          Sip on cooling, antioxidant-rich summer drinks designed to keep you hydrated and creative while you workshop at Madurai's first art café!
+          Ignite your creativity with signature artisanal coffee and hands-on art workshops at Madurai's premier creative cafe!
         </p>
 
         {/* CTA */}
