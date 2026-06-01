@@ -112,7 +112,7 @@ export default function Hero() {
       <img className="hero-lagoon hero-desktop-only" src="/cup5.png" alt="Blue Lagoon"
         style={{ position: 'absolute', top: '15%', right: '10%', width: '150px', height: 'auto', transform: 'rotate(22deg)', opacity: 0.9, zIndex: 10, filter: 'drop-shadow(0 10px 15px rgba(0,0,0,0.12))' }} />
       <img className="hero-watermelon hero-desktop-only" src="/cup6.png" alt="Watermelon Refresher"
-        style={{ position: 'absolute', bottom: '15%', right: '32%', width: '160px', height: 'auto', transform: 'rotate(-12deg)', opacity: 0.9, zIndex: 10, filter: 'drop-shadow(0 10px 15px rgba(0,0,0,0.12))' }} />
+        style={{ position: 'absolute', bottom: '8%', right: '22%', width: '160px', height: 'auto', transform: 'rotate(-12deg)', opacity: 0.9, zIndex: 10, filter: 'drop-shadow(0 10px 15px rgba(0,0,0,0.12))' }} />
       <svg className="hero-desktop-only" style={{ position: 'absolute', top: '50%', left: '20%', width: '30vw', height: '40vh', zIndex: 1, pointerEvents: 'none', overflow: 'visible' }}>
         <path className="drag-line" d="M 0,0 Q 150,150 250,300" fill="none" stroke="var(--ink)" strokeWidth="3" strokeDasharray="10 15" strokeLinecap="round" />
         <path d="M 240,290 L 250,300 L 235,305" fill="none" stroke="var(--ink)" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />

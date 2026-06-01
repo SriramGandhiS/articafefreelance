@@ -55,10 +55,10 @@ export default function App() {
 
     // Set initial position explicitly via GSAP
     gsap.set(mainCupRef.current, {
-      x: "10vw",
-      y: "15vh",
+      x: "18vw",
+      y: "10vh",
       rotation: 5,
-      scale: 1
+      scale: 0.95
     })
 
     // Master timeline for the tumbling coffee cup
